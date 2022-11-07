@@ -1,0 +1,189 @@
+@media (min-width: 0px) and ( max-width: 575px){
+    .carousel{
+        padding: 5px 0px 80px 0px;
+    }
+    .navbar .nav-item .nav-link{
+        background: rgba(47, 52, 55, 0.6);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+        font-size: 16px ;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     .carousel-inner .carousel-item .carousel-title{
+        padding-top: 0px;
+     }
+     .carousel-inner .carousel-item .carousel-title p{
+        max-width: 300px;
+     }
+     .carousel-inner .carousel-item .carousel-img {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 15px;
+     }
+     .features-title {
+        padding: 5px 0px;
+    }
+     .tinyone-features .title-section{
+        padding: 0px;
+    }
+    .tinyone-features .title-section h2{
+        font-size: 22px;
+    }
+    .features-title p{
+        width: 330px;
+    }
+    .Service-section i {
+        font-size: 30px;
+    }
+    .contact-title {
+        padding: 50px 0px 0px 0px;
+    
+    }
+    .contact-title p{
+        width: 350px;
+        padding-bottom: 20px;
+    }
+    .icon i{
+        margin: 20px 0px 20px 10px;
+    }
+    .input input {
+        width: 70%;
+    }
+    .footer-text {
+        padding-top: 30px;
+    }
+    
+    .footer-text p {
+        width: 80%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /* header start */
+    .carousel{
+        padding: 5px 0px 80px 0px;
+    }
+    .navbar .navbar-brand .img-fluid{
+        width: 90px;
+    }
+    .navbar .nav-item .nav-link{
+        background: rgba(47, 52, 55, 0.6);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+        font-size: 16px ;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     
+     .carousel-inner .carousel-item .carousel-title{
+        padding-top: 0px;
+     }
+     .carousel-inner .carousel-item .carousel-title p{
+        max-width: 500px;
+     }
+     .carousel-inner .carousel-item .carousel-img {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 15px;
+     }
+    /* header end */
+    /* feature part start */
+    .features-title {
+        padding: 5px 0px;
+    }
+    .feature-section .title-section{
+        padding: 0px;
+    }
+    .feature-section .title-section h2{
+        font-size: 22px;
+    }
+    .feature-section .title-section p{
+        font-size: 16px;
+    }
+    .Service-section p{
+        width: 100%;
+    }
+    .Service-section i {
+        font-size: 30px;
+        padding: 10px;
+    }
+    /* feature part end */
+    .footer-text {
+        padding-top: 40px;
+    }
+    .footer-text p {
+        width: 75%;
+    }
+    .input input {
+        width: 70%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .carousel{
+        padding: 80px 0px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+    .navbar .nav-link{
+        background: rgba(0,0,0,.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .carousel-inner .carousel-item .carousel-title{
+        padding-top: 0px;
+     }
+     .carousel-inner .carousel-item .carousel-title p{
+        max-width: 300px;
+     }
+     .carousel-inner .carousel-item .carousel-img {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 15px;
+     }
+     .features-title {
+        padding: 5px 0px;
+    }
+     .Service-section i {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .Service-section p{
+        width: 80%;
+    }
+    .footer-text {
+        padding-top: 40px;
+    }
+    .footer-text p {
+        width: 75%;
+    }
+    .input input {
+        width: 70%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .Service-section i {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    .Service-section i {
+        font-size: 40px;
+        padding: 10px;
+    }
+}
